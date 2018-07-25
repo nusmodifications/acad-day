@@ -1,0 +1,9 @@
+
+.fixed-link {
+  position: fixed;
+  font-size: 1rem;
+  left: 5px;
+  top: 5px;
+  color: #6ca0e8;
+  text-decoration: none;
+}
