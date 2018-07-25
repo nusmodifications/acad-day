@@ -1,4 +1,29 @@
 
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  text-transform: none;
+}
+
+.reveal h1 {
+  color: #666;
+}
+
+.reveal section img {
+  border: 0;
+  box-shadow: none;
+  max-height: 60vh;
+}
+
+.reveal section .avatar {
+  display: inline-block;
+  width: 1.4em;
+  height: 1.4em;
+  border-radius: 50%;
+  margin: 0 0 0 12px;
+  vertical-align: bottom;
+}
+
 .fixed-link {
   position: fixed;
   font-size: 1rem;
@@ -6,4 +31,5 @@
   top: 5px;
   color: #6ca0e8;
   text-decoration: none;
+  z-index: 1;
 }

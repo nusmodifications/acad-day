@@ -7,7 +7,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <base target="_blank">
 
-  <link rel="stylesheet" href="css/font-awesome.min.css">
   <link rel="stylesheet" href="reveal.js/css/reveal.css">
   <link rel="stylesheet" href="reveal.js/css/theme/white.css">
   <link rel="stylesheet" href="css/styles.css">
@@ -22,8 +21,47 @@
     <!-- Introduction -->
     <section>
       <section>
-
+        <img src="img/logo.png" alt="NUSMods" />
+        <p>@ Academic Day 2018</p>
       </section>
+
+      <section>
+        <ul>
+          <li>plan and build timetable</li>
+          <li>cors data + reviews + dependencies</li>
+          <li>find empty rooms</li>
+          <li>dark mode <small class="fragment fade-up">yes we did it first. Take that macOS</small></li>
+        </ul>
+      </section>
+
+      <section>
+        <img class="stretch"
+             src="img/nus-timetable-builder.png"
+             alt="The official NUS timetable builder. It has never been updated and probably never will be." />
+      </section>
+
+      <section>
+        <img src="img/v1.jpg" alt="" />
+        <p>NUSMods v1 (2012) by <a href="https://github.com/thebengeu">
+          <img class="avatar" src="img/beng.jpeg" alt="" /> Beng</a>
+        </p>
+      </section>
+
+      <section>
+        <img src="img/v2.png" alt="" />
+        <p>NUSMods v2 (2014) by <a href="https://github.com/yangshun">
+          <img class="avatar" src="img/yangshun.jpg" alt="" /> Yang Shun</a></p>
+      </section>
+
+      <section>
+        <img src="img/v3.png" alt="">
+        <p>NUSMods R - <a href="https://nusmods.com/" target="_blank"><strong>Demo time!</strong></a></p>
+      </section>
+    </section>
+
+    <!-- Tech stuff -->
+    <section>
+
     </section>
   </div>
 </div>
@@ -37,7 +75,14 @@
 
   Reveal.initialize({
     slideNumber: true,
-    dependencies: dependencies
+    dependencies: dependencies,
+
+
+    parallaxBackgroundImage: 'img/geometry.png', // e.g. "https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg"
+    parallaxBackgroundSize: '412px 412px', // CSS syntax, e.g. "2100px 900px" - currently only pixels are supported (don't use % or auto)
+
+    parallaxBackgroundHorizontal: 200,
+    parallaxBackgroundVertical: 50
   });
 </script>
 </body>
