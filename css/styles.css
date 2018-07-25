@@ -11,8 +11,12 @@
 
 .reveal section img {
   border: 0;
-  box-shadow: none;
   max-height: 60vh;
+  box-shadow: none;
+}
+
+.reveal a:hover img {
+  box-shadow: none;
 }
 
 .reveal section .avatar {
@@ -31,6 +35,16 @@
   padding: 5px 20px;
   font-size: 24px;
   background: rgba(0, 0, 0, 0.1);
+}
+
+.stack {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.stack > * {
+  width: 23%;
 }
 
 .side-by-side {
@@ -71,6 +85,7 @@
 
 .alumni p {
   align-self: center;
+  margin-left: 15px;
 }
 
 .feedback a {
