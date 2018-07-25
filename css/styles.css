@@ -24,6 +24,50 @@
   vertical-align: bottom;
 }
 
+.tech-stuff h2 {
+  position: absolute;
+  left: 0;
+  top: -40px;
+  padding: 5px 20px;
+  font-size: 24px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.side-by-side {
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-by-side > * {
+  width: 45%;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.team > * {
+  width: 30%;
+}
+
+.team img {
+  border-radius: 50%;
+}
+
+.team p {
+  font-size: 1em;
+}
+
+.feedback a {
+  text-align: center;
+}
+
+.feedback a:hover img {
+  box-shadow: none;
+}
+
 .fixed-link {
   position: fixed;
   font-size: 1rem;
