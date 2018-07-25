@@ -49,15 +49,28 @@
 }
 
 .team > * {
-  width: 30%;
+  width: 27%;
 }
 
-.team img {
+.team img,
+.alumni img {
   border-radius: 50%;
 }
 
-.team p {
+.team h3 {
   font-size: 1em;
+}
+
+.team p {
+  font-size: 0.8em;
+}
+
+.alumni > div {
+  display: flex;
+}
+
+.alumni p {
+  align-self: center;
 }
 
 .feedback a {
