@@ -31,10 +31,20 @@
 .tech-stuff h2 {
   position: absolute;
   left: 0;
-  top: -40px;
+  top: 0;
   padding: 5px 20px;
   font-size: 24px;
   background: rgba(0, 0, 0, 0.1);
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.tech-stuff h2 + * {
+  padding-top: 20px;
+}
+
+.reveal section .client-img {
+  margin-bottom: -40px;
 }
 
 .stack {
@@ -94,6 +104,11 @@
 
 .feedback a:hover img {
   box-shadow: none;
+}
+
+.tools {
+  display: flex;
+  justify-content: space-between;
 }
 
 .fixed-link {
