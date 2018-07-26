@@ -84,13 +84,8 @@
   font-size: 0.8em;
 }
 
-.alumni > div {
-  display: flex;
-}
-
-.alumni p {
-  align-self: center;
-  margin-left: 15px;
+.alumni strong {
+  display: block;
 }
 
 .feedback a {
